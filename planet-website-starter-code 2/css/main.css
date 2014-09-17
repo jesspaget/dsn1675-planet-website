@@ -38,14 +38,36 @@ img {
 
 .nav a {
     text-decoration: none;
+    color: #0074D9;
 }
 
-.venus {
+.jupiter {
     text-align: center;
+    margin: 1rem
 }
     
 .top-bar {
     background-color: #ccc;
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 0;
 }
+
+@media only screen and (min-width: 32em) {
+    
+    .nav li {
+        display: inline-block;
+    }
+    
+    .nav {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
