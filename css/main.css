@@ -43,6 +43,11 @@ img {
 .jupiter {
     text-align: center;
 }
+
+.intro {
+    text-align: center;
+    background-color: #e2e2e2;
+}
     
 .top-bar {
     background-color: #ccc;
@@ -77,3 +82,4 @@ img {
         overflow: hidden;
     }
 }
+
