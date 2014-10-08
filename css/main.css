@@ -38,6 +38,7 @@ img {
 .nav a {
     text-decoration: none;
     color: #0074D9;
+    display: block;
 }
 
 .jupiter {
@@ -49,11 +50,22 @@ img {
     background-color: #e2e2e2;
 }
     
-.top-bar {
+.page-bar {
     background-color: #ccc;
-    margin: 0;
-    padding: 1rem 0;
     overflow: hidden;
+}
+
+.page-title {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.mini-pics {
+    background-color: #efefef;
+}
+
+.characteristics {
+    background-color: #e2e2e2;
 }
 
 @media only screen and (min-width: 32em) {
@@ -71,15 +83,12 @@ img {
     
     .nav {
         float: left;
+        overflow: hidden;
     }
     
     .jupiter {
         float: left;
         margin: 0;
-    }
-    
-    .nav {
-        overflow: hidden;
     }
 }
 
