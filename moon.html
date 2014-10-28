@@ -12,14 +12,22 @@
 
 <body>
 
-    <!--ROW 1-->
-    <header class="page-bar island-1-2">
+    <ul class="skip-links">
+        <li>
+            <a href="#nav">Skip to navigation</a>
+        </li>
+        <li>
+            <a href="#main">Skip to main content</a>
+        </li>
+    </ul>
+
+    <header class="page-bar island-1-2" role="banner" id="top">
         <div class="grid grid-middle">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
                 <h1 class="jupiter peta push-0">Jupiter</h1>
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
-                <nav>
+                <nav role="navigation" id="nav">
                     <ul class="nav push-0">
                         <li class="giga">
                             <a class="island-half" href="index.html">Planet</a>
@@ -38,70 +46,72 @@
 
     <h2 class="exa page-title island-1-2 push-0">Moons</h2>
 
-    <div class="grid island">
-        <div class="unit unit-m-1-2">
+    <main role="main" id="main">
+        <div class="grid island">
+            <div class="unit unit-m-1-2">
+                <div class="grid">
+                    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                        <img src="images/jupiter-moon1.jpg" alt="">
+                    </div>
+
+                    <div class="unit moon-info unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                        <h2 class="giga pad-top">Jupiter's Fake Moon 1</h2>
+                        <p class="push-0">This is one fake moon for Jupiter</p>
+                    </div>
+                </div>
+
+                <dl class="pad-top data-list">
+                    <dt class="milli">Aphelion</dt>
+                    <dd class="mega">816520800 km</dd>
+                    <dt class="milli">Perihelion</dt>
+                    <dd class="mega">740573600 km</dd>
+                    <dt class="milli">Semi-major axis</dt>
+                    <dd class="mega">778547200 km</dd>
+                    <dt class="milli">Eccentricity</dt>
+                    <dd class="mega">0.048775</dd>
+                </dl>
+            </div>
+            <div class="unit unit-m-1-2">
+                <div class="grid">
+                    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                        <img src="images/jupiter-moon2.jpg" alt="">
+                    </div>
+
+                    <div class="unit moon-info unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                        <h2 class="giga pad-top">Jupiter's Fake Moon 2</h2>
+                        <p class="push-0">This is another fake moon for Jupiter</p>
+                    </div>
+                </div>
+
+                <dl class="pad-top data-list">
+                    <dt class="milli">Mean radius</dt>
+                    <dd class="mega">69911±6 km</dd>
+                    <dt class="milli">Equatorial radius</dt>
+                    <dd class="mega">71492±4 km</dd>
+                    <dt class="milli">Polar radius</dt>
+                    <dd class="mega">66854±10 km</dd>
+                    <dt class="milli">Flattening</dt>
+                    <dd class="mega push-0">0.06487±0.00015</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="discovery push-0 island">
+            <h2>Discovery</h2>
             <div class="grid">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                    <img src="images/jupiter-moon1.jpg" alt="">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4 pad-bottom">
+                    <img src="images/moon-cycle.jpg" alt="Moons">
                 </div>
-
-                <div class="unit moon-info unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                    <h2 class="giga pad-top">Jupiter's Fake Moon 1</h2>
-                    <p class="push-0">This is one fake moon for Jupiter</p>
-                </div>
+                <p class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-2 second-para">Jupiter has 63 known moons. The first described are the Galilean moons discovered by Galileo Galilei in 1610. The moons Europa, Ganymede and Callisto are ocean-type, and Io is volcanic type. The orbits of Io, Europa and Ganymede are in a Laplace resonance - for every four orbits of Io, Europa makes two, and Ganymede makes exactly one. This effect stretches their orbits in the form of ellipses. From another side the strong tidal forces of Jupiter, try to make the orbits of its satellites nearer circular. When the moons are closer to Jupiter, the gravity of the giant planet deforms its satellites shape in ellipsoid, allowing them to recover their normal spherical shape only when they are away enough.</p>
+                <p class="push-0 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">These cycles heat the satellites inside, much on Io and less on Europe. Io is the celestial body with the most powerful volcanic activity in our Solar System, except the Sun.</p>
             </div>
-
-            <dl class="pad-top data-list">
-                <dt class="milli">Aphelion</dt>
-                <dd class="mega">816520800 km</dd>
-                <dt class="milli">Perihelion</dt>
-                <dd class="mega">740573600 km</dd>
-                <dt class="milli">Semi-major axis</dt>
-                <dd class="mega">778547200 km</dd>
-                <dt class="milli">Eccentricity</dt>
-                <dd class="mega">0.048775</dd>
-            </dl>
         </div>
-        <div class="unit unit-m-1-2">
-            <div class="grid">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                    <img src="images/jupiter-moon2.jpg" alt="">
-                </div>
+    </main>
 
-                <div class="unit moon-info unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                    <h2 class="giga pad-top">Jupiter's Fake Moon 2</h2>
-                    <p class="push-0">This is another fake moon for Jupiter</p>
-                </div>
-            </div>
-
-            <dl class="pad-top data-list">
-                <dt class="milli">Mean radius</dt>
-                <dd class="mega">69911±6 km</dd>
-                <dt class="milli">Equatorial radius</dt>
-                <dd class="mega">71492±4 km</dd>
-                <dt class="milli">Polar radius</dt>
-                <dd class="mega">66854±10 km</dd>
-                <dt class="milli">Flattening</dt>
-                <dd class="mega push-0">0.06487±0.00015</dd>
-            </dl>
-        </div>
-    </div>
-
-    <div class="discovery push-0 island">
-        <h2>Discovery</h2>
-        <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4 pad-bottom">
-            <img src="images/moon-cycle.jpg" alt="Moons">
-        </div>
-        <p class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-2 second-para">Jupiter has 63 known moons. The first described are the Galilean moons discovered by Galileo Galilei in 1610. The moons Europa, Ganymede and Callisto are ocean-type, and Io is volcanic type. The orbits of Io, Europa and Ganymede are in a Laplace resonance - for every four orbits of Io, Europa makes two, and Ganymede makes exactly one. This effect stretches their orbits in the form of ellipses. From another side the strong tidal forces of Jupiter, try to make the orbits of its satellites nearer circular. When the moons are closer to Jupiter, the gravity of the giant planet deforms its satellites shape in ellipsoid, allowing them to recover their normal spherical shape only when they are away enough.</p>
-        <p class="push-0 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">These cycles heat the satellites inside, much on Io and less on Europe. Io is the celestial body with the most powerful volcanic activity in our Solar System, except the Sun.</p>
-            </div>
-    </div>
-        
-    <footer class="island-1-2 page-bar">
+    <footer class="island-1-2 page-bar" role="contentinfo">
         <div class="grid grid-middle">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
-                <p class="micro push-0 copyright">© 2014 Jupiter Planetary Consortium</p>
+                <p class="micro push-0 copyright">© 2014 Jupiter Planetary Consortium <a href="#top">Top</a></p>
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
                 <nav class="bottom-nav">
