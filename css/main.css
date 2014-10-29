@@ -114,6 +114,54 @@ img {
     background-color: #e2e2e2;
 }
 
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.joinexploration {
+    text-align: center;
+}
+
+.explorationi {
+    text-align: center;
+}
+
+.form {
+    background-color: #e2e2e2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"], 
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 20em;
+}
+
+input {
+    font-size: 1.5em;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
